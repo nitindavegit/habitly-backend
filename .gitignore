@@ -1,3 +1,27 @@
-__pycache__
-venv/
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Environments
 .env
+.env.*
+venv/
+*.sqlite3
+*.db
+
+# Alembic
+alembic/versions/
+
+# IDEs and OS
+.idea/
+.vscode/
+.DS_Store
+
+# Git and system files
+*.swp
+*.bak
+
+# Ignore local Git data (only if accidentally included in zip)
+.git/
+    
